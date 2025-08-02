@@ -1,0 +1,902 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="./src/output.css" />
+    </head>
+    <body>
+      <!-- This is the Header section -->
+      <section class="bg-[#292E36] w-full xs:full">
+        <header class="">
+          <div
+            class="flex items-center justify-between max-w-[1440px] mx-auto px-32 py-20 xs:px-6 xs:py-4"
+          >
+            <div class="border border-[#E1B168] px-10 py-5 text-white xs:px-4 xs:py-1 ">
+              call 09012345678
+            </div>
+            <img src="/src/homepage_images/nav-logo.webp" alt="" />
+            <div class="flex items-center space-x-10">
+              <img src="/src/homepage_images/Cart.svg" alt="" />
+              <button
+                class="bg-[#E1B168] px-20 py-5 hover:bg-white hover:text-[#E1B168]"
+                data-link="./booking.html"
+              >
+                Reservation
+              </button>
+            </div>
+          </div>
+          <!-- Navigation links -->
+          <div
+            class="border-y px-32 border-y-[#FFF8F5] py-5 flex items-center justify-between"
+          >
+            <div
+              class="flex items-center space-x-20 text-[#DEDEDE] hover:text-[#E1B168]"
+            >
+              <a href="./home.html">Home</a>
+              <a href="#About">About</a>
+              <a href="#Menu">Menu</a>
+              <a href="#Reservation">Reservation</a>
+              <a href="#Gallery">Gallery</a>
+              <a href="#Blog">Blog</a>
+              <a href="#Contact">Contact</a>
+            </div>
+            <!-- Social icons -->
+            <div class="flex items-center space-x-3">
+              <img src="./src/homepage_images/Insta.svg" alt="Instagram Icon" />
+              <img src="./src/homepage_images/Fb.svg" alt="Facebook Icon" />
+              <img src="./src/homepage_images/Twiter.svg" alt="Twitter Icon" />
+              <img
+                src="./src/homepage_images/Pintrest.svg"
+                alt="Pinterest Icon"
+              />
+            </div>
+          </div>
+        </header>
+      </section>
+      <!-- This is the Hero section -->
+      <section class="bg-[#292E36] w-full overflow-visible px-32">
+        <div class="flex items-center justify-between max-w-[1440px] relative">
+          <div class="py-5 mb-8 max-w-xl">
+            <h1 class="text-5xl text-white font-bold mb-4">
+              Welcome to <br />
+              Restaurantate
+            </h1>
+            <h6 class="text-sm text-white leading-tight mb-4">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              <br />
+              Ipsum has been the industry's standard dummy.
+            </h6>
+            <button class="border border-[#E1B168] px-10 py-3 text-white mt-4 hover:text-white hover:bg-[#E1B168]"
+                data-link="./menu.html">
+              View Menu
+            </button>
+          </div>
+          <div class="relative overflow-visible">
+            <img
+              class="w[400px] h-[600px] pt-10 -mb-32"
+              src="./src/homepage_images/hero-img.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- This is the Info section -->
+      <section class="bg-[#FFF8F5] w-full px-32">
+        <div class="flex items-center justify-between max-w-[1440px] py-28">
+          <div class="flex items-center justify-between space-x-2">
+            <img src="./src/Group 4.svg" alt="" />
+            <div class="flex flex-col">
+              <h6 class="font-medium">Locate Us</h6>
+              <h6 class="text-sm">Riverside 25, San Francisco, California</h6>
+            </div>
+          </div>
+          <div class="flex items-center justify-between space-x-2">
+            <img src="./src/Group 43.svg" alt="" />
+            <div class="flex flex-col">
+              <h6 class="font-medium">Open Hours</h6>
+              <h6 class="text-sm">Mon To Fri 9:00 AM - 9:00 PM</h6>
+            </div>
+          </div>
+          <div class="flex items-center justify-between space-x-2">
+            <img src="./src/Group 44.svg" alt="" />
+            <div class="flex flex-col">
+              <h6 class="font-medium">Reservation</h6>
+              <h6 class="text-sm">hirestaurantate@gmail.com</h6>
+            </div>
+          </div>
+        </div>
+        <div class="max-w-[1440px]">
+          <div class="flex items-center justify-between space-x-10">
+            <img
+              class="w-150 h-96"
+              src="./src/homepage_images/home-story-img.webp"
+              alt=""
+            />
+            <div class="border-l pl-8 max-w-md space-y-2">
+              <h5 class="text-2xl font-semibold mb-2">The Story</h5>
+              <h6 class="text-sm">
+                Lorem Ipsum is that it has a more-or-less normal distribution of
+                letters, as opposed to using 'Content here, content gfshere',
+                makinlook like readable English. Many desktop publishing packages.
+              </h6>
+              <div class="flex justify-between items-center space-x-10">
+                <div>
+                  <h5 class="text-2xl font-semibold mb-2">1995</h5>
+                  <h6 class="text-sm">
+                    Lorem Ipsum is that it has a more-or-less normal distribution
+                  </h6>
+                </div>
+                <div max-w-3xs>
+                  <h5 class="text-2xl font-semibold mb-2">2021</h5>
+                  <h6 class="text-sm">
+                    Lorem Ipsum is that it has a more-or-less normal Content
+                    content
+                  </h6>
+                </div>
+              </div>
+              <h5 class="text-2xl font-semibold mt-6">JOSEPHINE</h5>
+              <img src="./src/homepage_images/home-signature.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Menu section  -->
+      <section class="bg-white w-full py-6">
+        <div class="flex max-w-[1440px] px-32 space-x-35">
+          <!-- Left menu -->
+          <div class="max-w-[1440px] w-xs py-10">
+            <span class="tracking-widest text-2xl border-y border-[#E1B168]"
+              >MENU</span
+            >
+            <h4 class="text-2xl font-semibold pt-1 pb-2.5">
+              Try our Special Offers
+            </h4>
+            <h6>
+              Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters, as opposed to using 'Content here, content making it look
+              like readable English.
+            </h6>
+            <img
+              class="pt-10"
+              src="./src/homepage_images/home-special-offers.webp"
+              alt=""
+            />
+            <button class="border border-[#E1B168] px-5 py-5 mt-10 hover:text-white hover:bg-[#E1B168]"
+                data-link="./menu.html">
+              See all dishes
+            </button>
+          </div>
+          <!-- For right menu -->
+          <div class="flex-1 space-y-10 py-14 max-w-[1440px]">
+            <!-- for starter -->
+            <div>
+              <h2 class="py-4 font-bold text-2xl">Starter</h2>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-starters-raw.webp"
+                    alt="A milkshake"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Raw Scallops from Erquy</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$40</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-starters-spring.webp"
+                    alt="A Springroll"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Spring Roll</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$20</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-starters-onion.webp"
+                    alt="An onion Soup"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">French Onion Soup</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$25</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-starters-tomato.webp"
+                    alt="Tomato Bruschetta"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Tomato Bruschetta</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$30</h4>
+                </div>
+              </div>
+            </div>
+            <!-- For main dish -->
+            <div>
+              <h2 class="py-2 font-bold text-2xl">Main Dish</h2>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-main-grilled.webp"
+                    alt="Grilled Salmon"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Grilled Salmon with Dil Sauce</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$40</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-main-roast.webp"
+                    alt="A Springroll"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Roast Beef with Vegetable</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$20</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-main-markesh.webp"
+                    alt="Vegetarian curray"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Marrkesh Vegetarian Curray</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$25</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-starters-tomato.webp"
+                    alt="Vegan Potato"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Spicy Vegan Potato curry</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$30</h4>
+                </div>
+              </div>
+            </div>
+            <!-- For Desert -->
+            <div>
+              <h2 class="py-2 font-bold text-2xl">Desert</h2>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-dessert-apple.webp"
+                    alt="Apple Pie"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Apple Pie with Cream</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$40</h4>
+                </div>
+              </div>
+              <div class="flex justify-evenly items-center py-2 space-x-20">
+                <div class="flex justify-evenly items-center space-x-5">
+                  <img
+                    class="rounded-full h-20 w-20 object-cover object-center"
+                    src="./src/homepage_images/home-dessert-lemon.webp"
+                    alt="Lemon Maringue Pie"
+                  />
+                  <div class="flex flex-col">
+                    <h4 class="font-medium">Lemon Maringue Pie</h4>
+                    <h4 class="text-xs">Candied Jerusalem artichokes, truffle</h4>
+                  </div>
+                </div>
+                <div class="flex items-center space-x-5">
+                  <img
+                    class="w-60"
+                    src="./src/homepage_images/offer-line.webp"
+                    alt="offer line"
+                  />
+                  <h4 class="font-medium">$20</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section -->
+      <section class="w-full bg-[#292E36]">
+        <div class="px-32 py-16 max-w-[1440px]">
+          <span
+            class="tracking-widest text-2xl border-y text-white border-[#E1B168]"
+            >Testimonial</span
+          >
+          <h4 class="text-2xl font-semibold pt-1 text-white pb-2.5">
+            What our client say
+          </h4>
+          <h6 class="text-sm text-white">
+            We love to hear from customers, so please leave a comment or say hello
+            in an email.
+          </h6>
+          <!-- Content card -->
+          <div class="flex flex-wrap justify-between items-start mt-10">
+            <!-- First guy -->
+            <div
+              class="bg-[#343942] max-w-90 font-serif text-white px-10 space-x-5"
+            >
+              <div class="flex space-x-5 py-5">
+                <img
+                  class="w-20 h-20"
+                  src="./src/Image (1).png"
+                  alt="1st male image"
+                />
+                <div class="py-2">
+                  <h6 class="text-sm py-2">Daniyal Sppra</h6>
+                  <h6 class="text-xs text-[#E1B168]">Newyork</h6>
+                </div>
+              </div>
+              <div class="border-t max-w-90 py-5">
+                <span class="text-xs italic"
+                  >"It is professional, considers everyone's time, can think about
+                  the There are many variations of passages whole probls small
+                  niche, friendly".</span
+                >
+              </div>
+            </div>
+            <!-- Secong guy -->
+            <div
+              class="bg-[#343942] max-w-90 font-serif text-white px-10 space-x-5"
+            >
+              <div class="flex space-x-5 py-5">
+                <img
+                  class="w-20 h-20"
+                  src="./src/Image (2).png"
+                  alt="1st male image"
+                />
+                <div class="py-2">
+                  <h6 class="text-sm py-2">Natasha D</h6>
+                  <h6 class="text-xs text-[#E1B168]">Salt Lake City</h6>
+                </div>
+              </div>
+              <div class="border-t max-w-90 py-5">
+                <span class="text-xs italic"
+                  >""It is professional, considers everyone's time, can think
+                  about the There are many variations of passages".</span
+                >
+              </div>
+            </div>
+            <!-- Third guy -->
+            <div
+              class="bg-[#343942] max-w-90 font-serif text-white px-10 space-x-5"
+            >
+              <div class="flex space-x-5 py-5">
+                <img
+                  class="w-20 h-20"
+                  src="./src/Image (3).png"
+                  alt="1st male image"
+                />
+                <div class="py-2">
+                  <h6 class="text-sm py-2">Jack Sparrow</h6>
+                  <h6 class="text-xs text-[#E1B168]">San Diego</h6>
+                </div>
+              </div>
+              <div class="border-t max-w-90 py-5">
+                <span class="text-xs italic"
+                  >""It is professional, considers everyone's time, can think
+                  about the There are many passages whole probls small niche,
+                  friendly.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Img section -->
+      <section>
+        <img
+          class="w-full h-56 object-cover bg-center"
+          src="./src/homepage_images/home-sub-hero.webp"
+          alt=""
+        />
+      </section>
+      <!-- Offer Section -->
+      <section class="py-16 px-32 bg-white">
+        <div class="text-center">
+          <span
+            class="tracking-widest text-lg border-y uppercase mb-2 border-black"
+            >Offers</span
+          >
+          <h4 class="text-2xl font-semibold mb-2">Our special Offer dishes</h4>
+          <h6 class="text-xs max-w-md mx-auto mb-10">
+            Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content making.
+          </h6>
+          <!-- Offer Card -->
+          <div class="flex items-center max-w-[1440px] space-x-28 justify-center">
+            <!-- Card 1 -->
+            <div
+              class="flex max-w-100 h-56 bg-[url(/src/Background.jpg)] border-4"
+            >
+              <div class="flex flex-col max-w-56 px-4 py-2">
+                <img
+                  class="w-20 py-1"
+                  src="./src/Price.png"
+                  alt="Offer price 1"
+                />
+                <span
+                  class="tracking-widest text-lg border-y uppercase border-black"
+                  >50% Offer Going</span
+                >
+                <h4 class="text-xl w-52 text-start font-semibold pt-1 pb-1">
+                  Chicken Burger
+                </h4>
+                <h6 class="text-xs w-52 text-start">
+                  Lorem Ipsum is that it has a more-or-less normal
+                </h6>
+              </div>
+              <img
+                class="w-full h-28 mt-10 mr-28"
+                src="./src/homepage_images/home-offer-burger.webp"
+                alt="Burger!"
+              />
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="flex max-w-100 h-56 bg-[url(/src/Background (2).jpg)] border-4"
+            >
+              <div class="flex flex-col max-w-56 px-4 py-2">
+                <img
+                  class="w-20 py-1"
+                  src="./src/Price.png"
+                  alt="Offer price 1"
+                />
+                <span
+                  class="tracking-widest text-lg border-y uppercase border-black"
+                  >50% Offer Going</span
+                >
+                <h4 class="text-xl text-start w-52 font-semibold pt-1 pb-1">
+                  Chicken Pizza
+                </h4>
+                <h6 class="text-xs w-52 text-start">
+                  Lorem Ipsum is that it has a more-or-less normal
+                </h6>
+              </div>
+              <img
+                class="w-full h-40 mt-10 mr-28"
+                src="./src/homepage_images/home-offer-chicken-pizza.webp"
+                alt="Burger!"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Popular dishes -->
+        <div class="text-center mt-16">
+          <span
+            class="tracking-widest text-lg border-y uppercase mb-2 border-black"
+            >Offers</span
+          >
+          <h4 class="text-2xl font-semibold mb-2">Our special Offer dishes</h4>
+          <h6 class="text-xs max-w-md mx-auto mb-10">
+            Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content making.
+          </h6>
+          <!-- Popular cards -->
+          <div class="flex space-x-14 max-w-[1440px] justify-center items-center">
+            <!-- card 1 -->
+            <div class="flex flex-col max-w-48 text-left items-start">
+              <img
+                class="w-full h-28 rounded-md mb-2"
+                src="./src/matoori.png"
+                alt="Chicken Manjoori"
+              />
+              <div
+                class="flex space-x-5 font-semibold items-center text-left justify-between text-lg"
+              >
+                <h4>Chicken Manjoori</h4>
+                <h4>$15</h4>
+              </div>
+              <h6 class="text-sm mx-auto max-w-md mb-10">
+                Lorem Ipsum is that it has a more-or-less normal
+              </h6>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex flex-col max-w-48 text-left">
+              <img
+                class="w-full h-28 rounded-md mb-2"
+                src="./src/hot dog.png"
+                alt="Chicken Manjoori"
+              />
+              <div
+                class="flex space-x-5 items-center justify-between text-lg font-semibold"
+              >
+                <h4>Chicken Manjoori</h4>
+                <h4>$15</h4>
+              </div>
+              <h6 class="text-sm mx-auto max-w-md mb-10">
+                Lorem Ipsum is that it has a more-or-less normal
+              </h6>
+            </div>
+            <!-- Card 3 -->
+            <div class="flex flex-col max-w-48 text-left">
+              <img
+                class="w-full h-28 rounded-md mb-2"
+                src="./src/orange juice.png"
+                alt="Chicken Manjoori"
+              />
+              <div
+                class="flex space-x-5 items-center justify-between text-lg font-semibold"
+              >
+                <h4>Chicken Manjoori</h4>
+                <h4>$15</h4>
+              </div>
+              <h6 class="text-sm mx-auto max-w-md mb-10">
+                Lorem Ipsum is that it has a more-or-less normal
+              </h6>
+            </div>
+            <!-- Card 4 -->
+            <div class="flex flex-col max-w-48 text-left">
+              <img
+                class="w-full h-28 rounded-md mb-2"
+                src="./src/burger.png"
+                alt="Chicken Manjoori"
+              />
+              <div
+                class="flex space-x-5 items-center justify-between text-lg font-semibold"
+              >
+                <h4>Chicken Manjoori</h4>
+                <h4>$15</h4>
+              </div>
+              <h6 class="text-sm mx-auto max-w-md mb-10">
+                Lorem Ipsum is that it has a more-or-less normal
+              </h6>
+            </div>
+          </div>
+          <!-- Button -->
+          <button
+            class="mt-10 border border-[#E1B168] px-8 text-sm text-[#E1B168] py-3 hover:bg-[#E1B168] hover:text-white transition"
+          data-link="./menu.html">
+            See all dishes
+          </button>
+        </div>
+      </section>
+      <!-- Service section -->
+      <section
+        class="bg-[#292E36] text-white px-32 flex justify-center py-12 space-x-14"
+      >
+        <div class="text-start">
+          <span
+            class="tracking-widest text-xs mb-2 border-y uppercase border-black"
+            >What we offer</span
+          >
+          <h4 class="text-2xl font-semibold mb-2">Our Great Services</h4>
+          <h6 class="text-xs max-w-60 mx-auto mb-10">
+            Lorem Ipsum is that it has a more-or-less normal distribution content
+            making it look like readable English.
+          </h6>
+        </div>
+        <!-- service cards -->
+        <div
+          class="flex items-center justify-center flex-col border-8 w-44 h-32 border-[#323841] p-6 rounded-md"
+        >
+          <img class="w-12 h-12 mb-2" src="./src/Icon.svg" alt="" />
+          <h6 class="text-xs">Opened 24/7</h6>
+        </div>
+        <div
+          class="flex items-center justify-center flex-col border-8 w-44 h-32 border-[#323841] p-6 rounded-md"
+        >
+          <img class="w-12 h-12 mb-2" src="./src/Icon (1).svg" alt="" />
+          <h6 class="text-xs">Special Menu</h6>
+        </div>
+        <div
+          class="flex items-center justify-center flex-col border-8 w-44 h-32 border-[#323841] p-6 rounded-md"
+        >
+          <img class="w-12 h-12 mb-2" src="./src/Icon (2).svg" alt="" />
+          <h6 class="text-xs">Home Delivery</h6>
+        </div>
+      </section>
+      <!-- Blog section -->
+      <section class="text-center bg-white px-32 py-12">
+        <span
+          class="tracking-widest text-lg border-y uppercase mb-2 border-[#E1B168]"
+          >blog</span
+        >
+        <h4 class="text-2xl font-semibold mb-2 text-[#292E36]">
+          Be First Who Read News
+        </h4>
+        <h6 class="text-xs max-w-md mx-auto mb-10 text-[#555555]">
+          Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content making.
+        </h6>
+        <!-- Blog cards -->
+        <div class="flex justify-center space-x-32">
+          <!-- card 1 -->
+          <div
+            class="border rounded-lg my-5 overflow-hidden shadow-sm text-left w-sm h-[430px]"
+          >
+            <img class="w-full" src="./src/apple.png" alt="" />
+            <div class="px-12 py-7">
+              <span
+                class="tracking-widest text-xs text-[#292E36] mb-2 border-y uppercase border-[#E1B168]"
+                >Restaurants</span
+              >
+              <span
+                class="tracking-widest text-xs text-[#292E36] mb-2 border-y uppercase border-[#E1B168]"
+                >Feb 22, 2022</span
+              >
+              <h4 class="text-lg text-[#292E36] font-semibold mb-2 w-full">
+                The Most Popular Delicious Food Of Mediterranean Cuisine
+              </h4>
+              <h6 class="text-xs text-[#292E36] max-w-72 mb-10">
+                Capitalize on low-hanging fruit to identify a ballpark value added
+                matrix economically and the creative activity to beta test
+                override the food quality.
+              </h6>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="border rounded-lg my-5 overflow-hidden shadow-sm text-left w-sm h-[430px]"
+          >
+            <img class="w-full" src="./src/pinapple juice.jpg" alt="" />
+            <button
+              class="relative bottom-24 left-36 border border-[#E1B168] text-xs text-[#E1B168] px-6 py-1 hover:bg-[#E1B168] hover:text-white transition"
+            data-link="./blog.html">
+              View More
+            </button>
+            <div class="px-12">
+              <span
+                class="tracking-widest text-xs text-[#292E36] mb-2 border-y uppercase border-[#E1B168]"
+                >Restaurants</span
+              >
+              <span
+                class="tracking-widest text-xs text-[#292E36] mb-2 border-y uppercase border-[#E1B168]"
+                >Feb 22, 2022</span
+              >
+              <h4 class="text-lg text-[#292E36] font-semibold mb-2">
+                Elegant Dessert: 10 Tips How to Make It at Home
+              </h4>
+              <h6 class="text-xs text-[#292E36] max-w-72 mb-10">
+                Capitalize on low-hanging fruit to identify a ballpark value added
+                matrix economically and the creative activity to beta test
+                override the food quality.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reservation Section -->
+      <section
+        class="relative w-full bg-cover bg-center text-white py-16 px-32 bg-[url(/src/homepage_images/reservation-bg.webp)]"
+      >
+        <div
+          class="bg-[#292E36F2] bg-[95%] max-w-2xl mx-auto p-8 opacity-90 rounded-b-md text-center"
+        >
+          <span
+            class="tracking-widest text-xs mb-2 border-y uppercase border-[#E1B168]"
+            >Reservation</span
+          >
+          <h4 class="text-lg font-semibold mb-2">Book your table now</h4>
+          <!-- form -->
+          <form action="" class="space-x-10">
+            <div class="flex space-x-3 py-5">
+              <input
+                type="text"
+                placeholder="Name"
+                class="p-3 rounded border-2 border-white w-full"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="p-3 rounded border-2 border-white w-full"
+              />
+            </div>
+            <div class="flex space-x-3 py-3">
+              <input
+                type="text"
+                placeholder="Person"
+                class="p-3 rounded border-2 border-white w-full"
+              />
+              <input
+                type="time"
+                placeholder="Timing"
+                class="p-3 rounded border-2 border-white w-full"
+              />
+              <input
+                type="date"
+                placeholder="Date"
+                class="p-3 rounded border-2 border-white w-full"
+              />
+            </div>
+          </form>
+          <button
+            class="bg-white text-xs text-[#292E36] px-6 py-2 rounded hover:bg-[#E1B168] hover:text-white transition"
+          data-link="./table.html">
+            Book a table
+          </button>
+        </div>
+      </section>
+      <!-- Footer section -->
+      <section class="bg-[#1F242C] px-32 py-5 w-full">
+        <footer class="max-w-[1440px]">
+          <div
+            class="flex items-center justify-between max-w-[1440px] mx-auto py-10"
+          >
+            <div class="text-white mb-3 decoration-1 decoration-amber-50">
+              <a href="#Instagram">Instagram Feed</a>
+            </div>
+            <img src="/src/homepage_images/nav-logo.webp" alt="" />
+            <div class="flex items-center space-x-3">
+              <img src="./src/homepage_images/Insta.svg" alt="Instagram Icon" />
+              <img src="./src/homepage_images/Fb.svg" alt="Facebook Icon" />
+              <img src="./src/homepage_images/Twiter.svg" alt="Twitter Icon" />
+              <img
+                src="./src/homepage_images/Pintrest.svg"
+                alt="Pinterest Icon"
+              />
+            </div>
+          </div>
+          <!-- line 2 -->
+          <div
+            class="flex items-center justify-between max-w-[1440px] mx-auto py-10"
+          >
+            <!-- left foot -->
+            <div class="">
+              <span
+                class="uppercase tracking-widest border-y border-[#E1B168] text-white"
+                >contact</span
+              >
+              <h6 class="max-w-36 text-xs text-white pt-5 py-1">
+                5 Rue Dalou, 75015 Paris
+              </h6>
+              <h6 class="max-w-36 text-xs text-white py-1">
+                <span class="text-[#E1B168]">Call </span>- +33 156 78 89 56
+              </h6>
+              <h6 class="max-w-36 text-xs text-white py-1">
+                <span class="text-[#E1B168]">benoit@mail.com</span>
+              </h6>
+            </div>
+            <!-- middle foot -->
+            <div>
+              <h6 class="text-sm max-w-52 text-white py-1 text-center">
+                Join our mailing list for updates, Get news & offers events.
+              </h6>
+              <div class="p-0">
+                <input
+                  class="border border-white p-2 rounded"
+                  type="email"
+                  placeholder="Email"
+                />
+                <button
+                  class="bg-white text[#292E36] p-2 border-white rounded hover:bg-[#E1B168]"
+                  data-link="./subscribe.html"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <!-- right foot -->
+            <div>
+              <div class="">
+                <span
+                  class="uppercase tracking-widest border-y border-[#E1B168] text-white"
+                  >Working hours</span
+                >
+                <h6 class="max-w-40 text-xs text-white pt-5 py-1">
+                  <span class="text-[#E1B168]">Mon - Fri</span> : 7.00am - 6.00pm
+                </h6>
+                <h6 class="max-w-40 text-xs text-white pl-10 py-1">
+                  <span class="text-[#E1B168]">Sat </span>:7.00am - 6.00pm
+                </h6>
+                <h6 class="max-w-40 text-xs text-white pl-10 py-1">
+                  <span class="text-[#E1B168]">Sun</span>:8.00am - 6.00pm
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            class="border-t border-t-[#575B62] py-5 flex items-center justify-between"
+          >
+            <h6 class="text-xs text-white pt-5">
+              &copy;Copyright - Restaurantate | Designed by
+              <span class="text-[#E1B168]">VictorFlow</span> Templates - Powered
+              by <span class="text-[#E1B168]">Webflow</span>
+            </h6>
+            <h6 class="text-xs text-white pt-5">Styleguide / Licenses</h6>
+          </div>
+        </footer>
+      </section>
+
+      <script src="./project.js"></script>
+    </body>
+  </html>
